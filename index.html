@@ -15,24 +15,27 @@
 <body class="bg-black text-white font-sans">
 
   <!-- NAVBAR -->
-<header class="fixed top-0 w-full bg-black/80 backdrop-blur border-b border-gray-800 z-50">
-  <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-
-    <!-- Botón hamburguesa (solo Celulares) -->
-    <button id="menu-toggle" class="text-gray-300 text-2xl md:hidden focus:outline-none">
-      ☰
-    </button>
-
-    <!-- Menú de navegación -->
-    <nav id="nav-links" class="hidden flex-col absolute top-full left-0 w-full bg-black border-t border-gray-800 md:border-0 md:static md:flex md:flex-row md:space-x-10 md:bg-transparent md:items-center md:w-auto text-gray-300 text-xl font-semibold tracking-wide">
-      <a href="#inicio" class="px-4 py-2 hover:text-cyan-400 transition">Inicio</a>
-      <a href="#sobre-mi" class="px-4 py-2 hover:text-cyan-400 transition">Sobre mí</a>
-      <a href="#proyectos" class="px-4 py-2 hover:text-cyan-400 transition">Proyectos</a>
-      <a href="#contacto" class="px-4 py-2 hover:text-cyan-400 transition">Contacto</a>
-      <a href="assets/cv.facundo.gutierrez.pdf" class="px-4 py-2 hover:text-cyan-400 transition">CV</a>
-    </nav>
-  </div>
-</header>
+  <header class="fixed top-0 w-full bg-black/80 backdrop-blur border-b border-gray-800 z-50">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+  
+      <!-- Hamburguesa (solo visible en móvil) -->
+      <button id="menu-toggle" class="text-gray-300 text-2xl md:hidden focus:outline-none">
+        ☰
+      </button>
+  
+      <!-- Menú de navegación -->
+      <nav id="nav-links"
+        class="hidden flex-col items-center absolute top-full left-0 w-full bg-black text-gray-300 text-xl font-semibold tracking-wide border-t border-gray-800
+               md:static md:flex md:flex-row md:space-x-10 md:bg-transparent md:border-0 md:w-auto md:items-center">
+        
+        <a href="#inicio" class="px-4 py-3 w-full text-center hover:text-cyan-400 transition">Inicio</a>
+        <a href="#sobre-mi" class="px-4 py-3 w-full text-center hover:text-cyan-400 transition">Sobre mí</a>
+        <a href="#proyectos" class="px-4 py-3 w-full text-center hover:text-cyan-400 transition">Proyectos</a>
+        <a href="#contacto" class="px-4 py-3 w-full text-center hover:text-cyan-400 transition">Contacto</a>
+        <a href="assets/cv.facundo.gutierrez.pdf" class="px-4 py-3 w-full text-center hover:text-cyan-400 transition">CV</a>
+      </nav>
+    </div>
+  </header>
 
   <!-- HERO -->
   <section id="inicio" class="min-h-screen flex items-center justify-center text-center px-4 bg-gradient-to-b from-black via-gray-900 to-black mt-24">
